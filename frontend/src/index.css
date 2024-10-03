@@ -33,3 +33,15 @@ body,
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+a {
+  text-decoration: none; /* Elimină sublinierea */
+}
+
+a:hover {
+  text-decoration: underline; /* Subliniere la hover */
+}
+
+a:visited {
+  color: white; /* Culoarea după ce link-ul a fost vizitat */
+}
